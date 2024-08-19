@@ -7,7 +7,7 @@ on:
     - main
 
 env:
-  AZURE_WEBAPP_NAME: PropChase
+  AZURE_WEBAPP_NAME: PropChaseAPI
   AZURE_WEBAPP_PACKAGE_PATH: "./publish"
 
 jobs:
