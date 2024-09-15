@@ -35,6 +35,9 @@ public class Listing
         
     [BsonElement("RawListing")]
     public string RawListing { get; set; }
+    
+    [BsonElement("NumRooms")]
+    public string NumRooms { get; set; }
 
     public Listing(ObjectId id, string type, string site, double sqft, string address, string url, int numBedrooms, 
         int numBathrooms, double price, string rawListing)
