@@ -9,7 +9,7 @@ public class Listing
     [BsonId]
     public ObjectId Id { get; set; }
         
-    [BsonElement("type")]
+    [BsonElement("Type")]
     public string Type { get; set; }
         
     [BsonElement("site")]
