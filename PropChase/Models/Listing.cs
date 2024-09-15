@@ -12,28 +12,28 @@ public class Listing
     [BsonElement("Type")]
     public string Type { get; set; }
         
-    [BsonElement("site")]
+    [BsonElement("Site")]
     public string Site { get; set; }
         
-    [BsonElement("sqft")]
+    [BsonElement("Sqft")]
     public double Sqft { get; set; }
         
-    [BsonElement("address")]
+    [BsonElement("Address")]
     public string Address { get; set; }
         
-    [BsonElement("url")]
+    [BsonElement("Url")]
     public string Url { get; set; }
         
-    [BsonElement("numBedrooms")]
+    [BsonElement("NumBedrooms")]
     public int NumBedrooms { get; set; }
         
-    [BsonElement("numBathrooms")]
+    [BsonElement("NumBathrooms")]
     public int NumBathrooms { get; set; }
         
-    [BsonElement("price")]
+    [BsonElement("Price")]
     public double Price { get; set; }
         
-    [BsonElement("rawListing")]
+    [BsonElement("RawListing")]
     public string RawListing { get; set; }
 
     public Listing(ObjectId id, string type, string site, double sqft, string address, string url, int numBedrooms, 
