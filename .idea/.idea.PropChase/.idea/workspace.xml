@@ -8,9 +8,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fea852c-3007-46c2-810e-5673bc2bbd72" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/PropChase/Models/Listing.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PropChase/Models/Listing.cs" afterDir="false" />
-    </list>
+    <list default="true" id="3fea852c-3007-46c2-810e-5673bc2bbd72" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,7 +86,7 @@
       <option name="presentableId" value="Default" />
       <updated>1724105389134</updated>
       <workItem from="1724105391519" duration="147000" />
-      <workItem from="1726435564996" duration="1521000" />
+      <workItem from="1726435564996" duration="1839000" />
     </task>
     <servers />
   </component>
