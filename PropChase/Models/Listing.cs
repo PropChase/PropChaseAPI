@@ -37,10 +37,10 @@ public class Listing
     public string RawListing { get; set; }
     
     [BsonElement("NumRooms")]
-    public string NumRooms { get; set; }
+    public double NumRooms { get; set; }
 
     public Listing(ObjectId id, string type, string site, double sqft, string address, string url, int numBedrooms, 
-        int numBathrooms, double price, string rawListing)
+        int numBathrooms, double price, string rawListing, double numRooms)
     {
         Id = id;
         Type = type;
@@ -52,5 +52,6 @@ public class Listing
         NumBathrooms = numBathrooms;
         Price = price;
         RawListing = rawListing;
+        NumRooms = numRooms;
     }
 }
