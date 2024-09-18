@@ -41,6 +41,9 @@ public class Listing
     
     [BsonElement("Score")]
     public Int32 Score { get; set; }
+    
+    [BsonElement("Neighbourhood")]
+    public string Neighbourhood { get; set; }
 
     public Listing(ObjectId id, string type, string site, double sqft, string address, string url, int numBedrooms, 
         int numBathrooms, double price, string rawListing, double numRooms, Int32 score)

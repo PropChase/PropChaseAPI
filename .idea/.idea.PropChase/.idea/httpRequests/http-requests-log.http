@@ -1,0 +1,16 @@
+GET https://propchaseapi-ghgfaybdaeefdxd4.eastus-01.azurewebsites.net/listings/0/6
+Content-Type: application/json
+Authorization: Bearer A83jnnbcbueJJeb03nclbheY
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 21
+
+{
+  "request": null
+}
+
+<> 2024-09-18T113339.500.json
+
+###
+
