@@ -1,8 +1,8 @@
 # PropChase API
 
 - [PropChase API](#propchase-api)
-  - [Get Listings](#create-listings)
-    - [Create Request](#create-get-listings-request)
+  - [Get Listings](#get-listings)
+    - [Create Request](#get-listings-request)
     - [Response](#get-listings-response)
   
 
