@@ -9,7 +9,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3fea852c-3007-46c2-810e-5673bc2bbd72" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PropChase/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PropChase/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PropChase/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PropChase/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PropChase/bin/Debug/net8.0/PropChase.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PropChase/bin/Debug/net8.0/PropChase.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PropChase/bin/Debug/net8.0/PropChase.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PropChase/bin/Debug/net8.0/PropChase.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PropChase/obj/Debug/net8.0/PropChase.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PropChase/obj/Debug/net8.0/PropChase.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PropChase/obj/Debug/net8.0/PropChase.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PropChase/obj/Debug/net8.0/PropChase.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PropChase/obj/Debug/net8.0/PropChase.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PropChase/obj/Debug/net8.0/PropChase.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PropChase/obj/Debug/net8.0/PropChase.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PropChase/obj/Debug/net8.0/PropChase.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PropChase/obj/Debug/net8.0/PropChase.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/PropChase/obj/Debug/net8.0/PropChase.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PropChase/obj/Debug/net8.0/ref/PropChase.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PropChase/obj/Debug/net8.0/ref/PropChase.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PropChase/obj/Debug/net8.0/refint/PropChase.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PropChase/obj/Debug/net8.0/refint/PropChase.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +39,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    ".NET Launch Settings Profile.PropChase: http.executor": "Run",
+    "HTTP Request.All in GetListings.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
@@ -48,6 +59,9 @@
   }
 }]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.PropChase: http">
+    <configuration name="All in GetListings" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/../HouseHunt/PropChaseAPI/PropChase/Requests/GetListings.http">
+      <method v="2" />
+    </configuration>
     <configuration name="PropChase: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/PropChase/PropChase.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net8.0" />
@@ -78,6 +92,11 @@
         <option name="Build" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.All in GetListings" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -89,6 +108,7 @@
       <updated>1724105389134</updated>
       <workItem from="1724105391519" duration="147000" />
       <workItem from="1726435564996" duration="2267000" />
+      <workItem from="1726672883161" duration="1004000" />
     </task>
     <servers />
   </component>
