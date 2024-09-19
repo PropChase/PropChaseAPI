@@ -3,7 +3,7 @@
 - [PropChase API](#propchase-api)
   - [Get Listings](#create-listings)
     - [Create Request](#create-get-listings-request)
-    - [Response](#create-get-listings-response)
+    - [Response](#get-listings-response)
   
 
 ## Get Listings
@@ -34,7 +34,7 @@ Authorization: Bearer {{apiKey}}
 }
 ```
 
-### Create Get Listings Response
+### Get Listings Response
 
 ```js
 200 OK
