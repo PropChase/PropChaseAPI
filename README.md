@@ -16,6 +16,15 @@ GET https://propchaseapi-ghgfaybdaeefdxd4.eastus-01.azurewebsites.net/listings/i
 ```
 
 ```json
+@PropChase_HostAddress = https://propchaseapi-ghgfaybdaeefdxd4.eastus-01.azurewebsites.net
+@id = 0
+@numListings = 1
+@apiKey = ************************
+
+GET {{PropChase_HostAddress}}/listings/{{id}}/{{numListings}}
+Content-Type: application/json
+Authorization: Bearer {{apiKey}}
+
 {
   "request": null
 }
@@ -31,16 +40,25 @@ GET https://propchaseapi-ghgfaybdaeefdxd4.eastus-01.azurewebsites.net/listings/i
 {
   "listings": [
     {
-      "id": "00000002-0000-0000-0000-000000000000",
-      "type": "Condo",
-      "site": "Realtor.ca",
-      "sqft": 12000,
-      "address": "62701",
-      "url": "3",
-      "numBedrooms": 2,
-      "numBathrooms": 1500,
-      "price": 200000,
-      "rawListing": "<div></div>"
+      "id": {
+        "timestamp": 1726672393,
+        "machine": 10106952,
+        "pid": 15625,
+        "increment": 4924723,
+        "creationTime": "2024-09-18T15:13:13Z"
+      },
+      "type": "Condo for sale or for rent",
+      "site": "Centris",
+      "sqft": 611,
+      "address": "1265, Rue Lambert-Closse, apt. 207, Montr&#xE9;al (Ville-Marie), Neighbourhood Central West",
+      "url": "https://www.centris.ca/en/condos~for-sale~montreal-ville-marie/14086887?view=Summary",
+      "numBedrooms": 0,
+      "numBathrooms": 0,
+      "price": 489000,
+      "rawListing": null,
+      "numRooms": 5,
+      "score": 60,
+      "neighbourhood": "Central West"
     }
   ]
 }
