@@ -15,7 +15,7 @@ This GET request is meant to retrieve listings. It takes in two parameters (stri
 GET https://propchaseapi-ghgfaybdaeefdxd4.eastus-01.azurewebsites.net/listings/id/numListings
 ```
 
-```json
+```https
 @PropChase_HostAddress = https://propchaseapi-ghgfaybdaeefdxd4.eastus-01.azurewebsites.net
 @id = 0
 @numListings = 1
