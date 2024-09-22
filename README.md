@@ -8,7 +8,7 @@
   
 
 ## Introduction
-PropChase API gives clients access to out aggregated and calculated data sets. Weather a client is looking for 
+PropChase API gives clients access to our aggregated and calculated data sets. Weather a client is looking for 
 individual real estate listings and their associated data, or weather they're looking for calculated statistics like the 
 average house price in an neighbourhood. Below is the PropChase API documentation showing all possible request types and 
 their associated responses.

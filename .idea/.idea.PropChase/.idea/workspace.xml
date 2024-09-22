@@ -9,16 +9,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3fea852c-3007-46c2-810e-5673bc2bbd72" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PropChase/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PropChase/.idea/httpRequests/http-requests-log.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PropChase/bin/Debug/net8.0/PropChase.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PropChase/bin/Debug/net8.0/PropChase.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PropChase/bin/Debug/net8.0/PropChase.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PropChase/bin/Debug/net8.0/PropChase.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PropChase/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PropChase/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PropChase/obj/Debug/net8.0/PropChase.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PropChase/obj/Debug/net8.0/PropChase.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PropChase/obj/Debug/net8.0/PropChase.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PropChase/obj/Debug/net8.0/PropChase.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PropChase/obj/Debug/net8.0/PropChase.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PropChase/obj/Debug/net8.0/PropChase.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PropChase/obj/Debug/net8.0/PropChase.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PropChase/obj/Debug/net8.0/PropChase.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PropChase/obj/Debug/net8.0/PropChase.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/PropChase/obj/Debug/net8.0/PropChase.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PropChase/obj/Debug/net8.0/ref/PropChase.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PropChase/obj/Debug/net8.0/ref/PropChase.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PropChase/obj/Debug/net8.0/refint/PropChase.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PropChase/obj/Debug/net8.0/refint/PropChase.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,27 +32,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Launch Settings Profile.PropChase: http.executor": "Run",
-    "HTTP Request.All in GetListings.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.PropChase: http.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.All in GetListings.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "/Users/jonas/Library/Application Support/JetBrains/Rider2024.1/resharper-host/DecompilerCache",
-      "/Users/jonas/Library/Application Support/JetBrains/Rider2024.1/resharper-host/SourcesCache",
-      "/Users/jonas/Library/Application Support/Symbols/src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;/Users/jonas/Library/Application Support/JetBrains/Rider2024.1/resharper-host/DecompilerCache&quot;,
+      &quot;/Users/jonas/Library/Application Support/JetBrains/Rider2024.1/resharper-host/SourcesCache&quot;,
+      &quot;/Users/jonas/Library/Application Support/Symbols/src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.PropChase: http">
     <configuration name="All in GetListings" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/../HouseHunt/PropChaseAPI/PropChase/Requests/GetListings.http">
       <method v="2" />
@@ -109,6 +104,7 @@
       <workItem from="1724105391519" duration="147000" />
       <workItem from="1726435564996" duration="2267000" />
       <workItem from="1726672883161" duration="1004000" />
+      <workItem from="1726964090818" duration="162000" />
     </task>
     <servers />
   </component>
