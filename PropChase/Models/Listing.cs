@@ -46,10 +46,10 @@ public class Listing
     public string Neighbourhood { get; set; }
     
     [BsonElement("Latitude")]
-    public double Latitude { get; set; }
+    public double? Latitude { get; set; }
     
     [BsonElement("Longitude")]
-    public double Longitude { get; set; }
+    public double? Longitude { get; set; }
 
     public Listing(ObjectId id, string type, string site, double sqft, string address, string url, int numBedrooms, 
         int numBathrooms, double price, string rawListing, double numRooms, Int32 score)

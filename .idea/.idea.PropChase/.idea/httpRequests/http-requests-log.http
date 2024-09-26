@@ -1,3 +1,49 @@
+GET https://propchaseapi-ghgfaybdaeefdxd4.eastus-01.azurewebsites.net/listings/0/1
+Content-Type: application/json
+Authorization: Bearer A83jnnbcbueJJeb03nclbheY
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 21
+
+{
+  "request": null
+}
+
+<> 2024-09-26T175557.200.json
+
+###
+
+GET https://propchaseapi-ghgfaybdaeefdxd4.eastus-01.azurewebsites.net/listings/0/1
+Content-Type: application/json
+Authorization: Bearer A83jnnbcbueJJeb03nclbheY
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 21
+
+{
+  "request": null
+}
+
+<> 2024-09-26T171920.200.json
+
+###
+
+GET https://propchaseapi-ghgfaybdaeefdxd4.eastus-01.azurewebsites.net/listings/0/1
+Content-Type: application/json
+Authorization: Bearer A83jnnbcbueJJeb03nclbheY
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 21
+
+{
+  "request": null
+}
+
+###
+
 GET https://propchaseapi-ghgfaybdaeefdxd4.eastus-01.azurewebsites.net/listings/0/6
 Content-Type: application/json
 Authorization: Bearer A83jnnbcbueJJeb03nclbheY

@@ -9,19 +9,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3fea852c-3007-46c2-810e-5673bc2bbd72" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PropChase/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PropChase/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PropChase/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PropChase/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PropChase/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PropChase/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PropChase/obj/Debug/net8.0/PropChase.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PropChase/obj/Debug/net8.0/PropChase.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PropChase/obj/Debug/net8.0/PropChase.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PropChase/obj/Debug/net8.0/PropChase.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -36,7 +40,9 @@
   &quot;keyToString&quot;: {
     &quot;.NET Launch Settings Profile.PropChase: http.executor&quot;: &quot;Run&quot;,
     &quot;HTTP Request.All in GetListings.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -53,7 +59,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.PropChase: http">
+  <component name="RunManager" selected="HTTP Request.All in GetListings">
     <configuration name="All in GetListings" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/../HouseHunt/PropChaseAPI/PropChase/Requests/GetListings.http">
       <method v="2" />
     </configuration>
@@ -105,6 +111,7 @@
       <workItem from="1726435564996" duration="2267000" />
       <workItem from="1726672883161" duration="1004000" />
       <workItem from="1726964090818" duration="162000" />
+      <workItem from="1727387310797" duration="22000" />
     </task>
     <servers />
   </component>
