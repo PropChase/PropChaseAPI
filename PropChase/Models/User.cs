@@ -12,8 +12,8 @@ public class User
     [BsonElement("fName")]
     public string FName { get; set; }
         
-    [BsonElement("lName")]
-    public string LName { get; set; }
+    [BsonElement("Name")]
+    public string Name { get; set; }
         
     [BsonElement("email")]
     public string Email { get; set; }
@@ -24,11 +24,11 @@ public class User
     [BsonElement("apiKey")] 
     public string ApiKey { get; set; }
 
-    public User(ObjectId id, string fName, string lName, string email, string phoneNumber, string apiKey)
+    public User(ObjectId id, string fName, string name, string email, string phoneNumber, string apiKey)
     {
         Id = id;
         FName = fName;
-        LName = lName;
+        Name = name;
         Email = email;
         PhoneNumber = phoneNumber;
         ApiKey = apiKey;
