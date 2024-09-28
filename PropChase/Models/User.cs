@@ -9,28 +9,24 @@ public class User
     [BsonId]
     public ObjectId Id { get; set; }
         
-    [BsonElement("fName")]
-    public string FName { get; set; }
-        
     [BsonElement("Name")]
     public string Name { get; set; }
         
     [BsonElement("email")]
     public string Email { get; set; }
-        
-    [BsonElement("phoneNumber")]
-    public string PhoneNumber { get; set; }
-
+    
+    [BsonElement("password")]
+    public string Password { get; set; }
+    
     [BsonElement("apiKey")] 
     public string ApiKey { get; set; }
 
-    public User(ObjectId id, string fName, string name, string email, string phoneNumber, string apiKey)
+    public User(ObjectId id, string fName, string name, string email, string password, string apiKey)
     {
         Id = id;
-        FName = fName;
         Name = name;
         Email = email;
-        PhoneNumber = phoneNumber;
+        Password = password;
         ApiKey = apiKey;
     }
 }
