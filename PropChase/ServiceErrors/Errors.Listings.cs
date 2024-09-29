@@ -16,4 +16,12 @@ public static class Errors
             "Listing not found"
         );
     }
+    
+    public static class Users
+    {
+        public static Error DuplicateEmail => Error.Conflict(
+            code: "User.DuplicateEmail",
+            description: "A user with this email already exists."
+        );
+    }
 }

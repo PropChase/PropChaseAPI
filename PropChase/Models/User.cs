@@ -21,7 +21,7 @@ public class User
     [BsonElement("apiKey")] 
     public string ApiKey { get; set; }
 
-    public User(ObjectId id, string fName, string name, string email, string password, string apiKey)
+    public User(ObjectId id, string name, string email, string password, string apiKey)
     {
         Id = id;
         Name = name;
