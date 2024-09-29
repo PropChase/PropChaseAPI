@@ -1,14 +1,5 @@
-System.ArgumentOutOfRangeException: List of configured name servers must not be empty. (Parameter 'servers')
-   at DnsClient.LookupClient.QueryInternal(DnsQuestion question, DnsQuerySettings queryOptions, IReadOnlyCollection`1 servers)
-   at DnsClient.LookupClient.Query(DnsQuestion question)
-   at DnsClient.LookupClient.Query(String query, QueryType queryType, QueryClass queryClass)
-   at MongoDB.Driver.Core.Misc.DnsClientWrapper.ResolveTxtRecords(String domainName, CancellationToken cancellationToken)
-   at MongoDB.Driver.Core.Configuration.ConnectionString.Resolve(Boolean resolveHosts, CancellationToken cancellationToken)
-   at MongoDB.Driver.MongoUrl.Resolve(Boolean resolveHosts, CancellationToken cancellationToken)
-   at MongoDB.Driver.MongoClientSettings.FromUrl(MongoUrl url)
-   at MongoDB.Driver.MongoClientSettings.FromConnectionString(String connectionString)
-   at MongoDB.Driver.MongoClient..ctor(String connectionString)
-   at PropChase.DataLayer.MongoDbContext..ctor() in /Users/jonas/Documents/GitHub/PropChaseAPI/PropChase/DataLayer/MongoDbContext.cs:line 19
+System.Exception: MongoDB connection string environment variable not found.
+   at PropChase.DataLayer.MongoDbContext..ctor() in /Users/jonas/Documents/GitHub/PropChaseAPI/PropChase/DataLayer/MongoDbContext.cs:line 16
    at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
    at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
    at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
@@ -46,4 +37,4 @@ User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.1.1
 Accept-Encoding: br, deflate, gzip, x-gzip
 Authorization: Bearer A83jnnbcbueJJeb03nclbheY
 Content-Type: application/json
-Content-Length: 96
+Content-Length: 78
