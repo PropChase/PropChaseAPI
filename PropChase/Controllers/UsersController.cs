@@ -25,4 +25,16 @@ public class UsersController : ControllerBase
             errors => Problem(title: errors.First().Description)
         );
     }
+    
+    [HttpPost("exists")]
+    public async Task<IActionResult> CheckUser([FromBody] CheckUserRequest request)
+    {
+        var userResult = await _userService.CheckIfUserExistsAsync(request.Name, request.Email, request.Password);
+
+        return userResult.Match(
+            user => Ok(new { user.Id, user.ApiKey }),
+            errors => Problem(title: errors.First().Description)  // If errors exist, return the error details
+        );
+    }
+
 }

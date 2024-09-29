@@ -23,5 +23,8 @@ public static class Errors
             code: "User.DuplicateEmail",
             description: "A user with this email already exists."
         );
+        
+        public static Error NotFound => Error.NotFound("User.NotFound", "User not found with the provided credentials.");
+
     }
 }

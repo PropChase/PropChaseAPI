@@ -32,6 +32,17 @@ public class UserService : IUserService
 
         return user;
     }
+    public async Task<ErrorOr<Models.User>> CheckIfUserExistsAsync(string name, string email, string password)
+    {
+        var user = await _userRepository.GetUserByCredentialsAsync(name, email, password);
+
+        if (user is null)
+        {
+            return Errors.Users.NotFound; 
+        }
+
+        return user;
+    }
 
     private string GenerateApiKey()
     {

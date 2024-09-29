@@ -1,0 +1,6 @@
+{
+  "type": "https://tools.ietf.org/html/rfc9110#section-15.6.1",
+  "title": "A user with this email already exists.",
+  "status": 500,
+  "traceId": "00-9859ea0c7889472c1a59c8732fe4cf41-82e9fa5253c4d612-00"
+}

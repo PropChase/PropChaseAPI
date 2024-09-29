@@ -9,7 +9,7 @@ public class User
     [BsonId]
     public ObjectId Id { get; set; }
         
-    [BsonElement("Name")]
+    [BsonElement("name")]
     public string Name { get; set; }
         
     [BsonElement("email")]
@@ -20,6 +20,9 @@ public class User
     
     [BsonElement("apiKey")] 
     public string ApiKey { get; set; }
+    
+    [BsonElement("status")] 
+    public bool Status { get; set; }
 
     public User(ObjectId id, string name, string email, string password, string apiKey)
     {
@@ -28,5 +31,6 @@ public class User
         Email = email;
         Password = password;
         ApiKey = apiKey;
+        Status = false;
     }
 }
