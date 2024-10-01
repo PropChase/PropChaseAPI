@@ -30,6 +30,33 @@ public class UserRepository : IUserRepository
         var user = await _context.Users.Find(filter).FirstOrDefaultAsync();
         return user;
     }
+    
+    public async Task<User?> GetUserAndChangeKey(string name, string email, string password)
+    {
+        // Query MongoDB to check if a user with the same name, email, and password exists
+        var filter = Builders<User>.Filter.And(
+            Builders<User>.Filter.Eq(u => u.Name, name),
+            Builders<User>.Filter.Eq(u => u.Email, email),
+            Builders<User>.Filter.Eq(u => u.Password, password)
+        );
+
+        var user = await _context.Users.Find(filter).FirstOrDefaultAsync();
+        
+        if (user != null)
+        {
+            // Generate a new API key
+            var newApiKey = Guid.NewGuid().ToString();
+
+            // Update the user's API key
+            var update = Builders<User>.Update.Set(u => u.ApiKey, newApiKey);
+            await _context.Users.UpdateOneAsync(filter, update);
+
+            // Update the user object with the new API key
+            user.ApiKey = newApiKey;
+        }
+
+        return user;
+    }
 
     public async Task<User> GetUserByEmailAsync(string email)
     {

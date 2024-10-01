@@ -33,7 +33,18 @@ public class UsersController : ControllerBase
 
         return userResult.Match(
             user => Ok(new { user.Id, user.ApiKey }),
-            errors => Problem(title: errors.First().Description)  // If errors exist, return the error details
+            errors => Problem(title: errors.First().Description)
+        );
+    }
+    
+    [HttpPost("recredit")]
+    public async Task<IActionResult> RecreditUser([FromBody] CheckUserRequest request)
+    {
+        var userResult = await _userService.RecreditUser(request.Name, request.Email, request.Password);
+
+        return userResult.Match(
+            user => Ok(new { user.Id, user.ApiKey }),
+            errors => Problem(title: errors.First().Description)
         );
     }
 

@@ -43,6 +43,18 @@ public class UserService : IUserService
 
         return user;
     }
+    
+    public async Task<ErrorOr<Models.User>> RecreditUser(string name, string email, string password)
+    {
+        var user = await _userRepository.GetUserAndChangeKey(name, email, password);
+
+        if (user is null)
+        {
+            return Errors.Users.NotFound; 
+        }
+
+        return user;
+    }
 
     private string GenerateApiKey()
     {

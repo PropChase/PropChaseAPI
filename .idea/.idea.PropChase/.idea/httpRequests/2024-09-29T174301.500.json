@@ -1,0 +1,6 @@
+{
+  "type": "https://tools.ietf.org/html/rfc9110#section-15.6.1",
+  "title": "User not found with the provided credentials.",
+  "status": 500,
+  "traceId": "00-85b8f94475cdb201e1ebe5d2847c42dd-6e26d04100b28a46-00"
+}

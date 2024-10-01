@@ -9,27 +9,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3fea852c-3007-46c2-810e-5673bc2bbd72" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/PropChase/Contracts/CheckUserRequest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PropChase/.idea/httpRequests/2024-09-28T215730.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PropChase/.idea/httpRequests/2024-09-28T220656.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PropChase/.idea/httpRequests/2024-09-28T222149.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PropChase/.idea/httpRequests/2024-09-28T222201.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PropChase/.idea/httpRequests/2024-09-29T153905.200.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PropChase/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PropChase/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PropChase/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PropChase/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PropChase/Controllers/UsersController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PropChase/Controllers/UsersController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PropChase/Models/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PropChase/Models/User.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PropChase/Repository/IUserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PropChase/Repository/IUserRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PropChase/Repository/UserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PropChase/Repository/UserRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PropChase/ServiceErrors/Errors.Listings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PropChase/ServiceErrors/Errors.Listings.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PropChase/Services/User/IUserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PropChase/Services/User/IUserService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PropChase/Services/User/UserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PropChase/Services/User/UserService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PropChase/bin/Debug/net8.0/PropChase.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PropChase/bin/Debug/net8.0/PropChase.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PropChase/bin/Debug/net8.0/PropChase.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PropChase/bin/Debug/net8.0/PropChase.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PropChase/obj/Debug/net8.0/PropChase.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PropChase/obj/Debug/net8.0/PropChase.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PropChase/obj/Debug/net8.0/PropChase.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PropChase/obj/Debug/net8.0/PropChase.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PropChase/obj/Debug/net8.0/PropChase.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PropChase/obj/Debug/net8.0/PropChase.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PropChase/obj/Debug/net8.0/PropChase.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PropChase/obj/Debug/net8.0/PropChase.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PropChase/obj/Debug/net8.0/PropChase.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PropChase/obj/Debug/net8.0/PropChase.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PropChase/obj/Debug/net8.0/PropChase.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/PropChase/obj/Debug/net8.0/PropChase.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PropChase/obj/Debug/net8.0/ref/PropChase.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PropChase/obj/Debug/net8.0/ref/PropChase.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PropChase/obj/Debug/net8.0/refint/PropChase.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PropChase/obj/Debug/net8.0/refint/PropChase.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PropChase/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/PropChase/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PropChase/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/PropChase/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,30 +55,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Launch Settings Profile.PropChase: http.executor": "Run",
-    "HTTP Request.All in GetListings.executor": "Run",
-    "HTTP Request.GetListings | #1.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.PropChase: http.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.All in GetListings.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.GetListings | #1.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "/Users/jonas/Library/Application Support/JetBrains/Rider2024.1/resharper-host/DecompilerCache",
-      "/Users/jonas/Library/Application Support/JetBrains/Rider2024.1/resharper-host/SourcesCache",
-      "/Users/jonas/Library/Application Support/Symbols/src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;/Users/jonas/Library/Application Support/JetBrains/Rider2024.1/resharper-host/DecompilerCache&quot;,
+      &quot;/Users/jonas/Library/Application Support/JetBrains/Rider2024.1/resharper-host/SourcesCache&quot;,
+      &quot;/Users/jonas/Library/Application Support/Symbols/src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="HTTP Request.All in GetListings">
     <configuration name="All in GetListings" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/../HouseHunt/PropChaseAPI/PropChase/Requests/GetListings.http">
       <method v="2" />
@@ -136,7 +137,8 @@
       <workItem from="1726964090818" duration="162000" />
       <workItem from="1727387310797" duration="22000" />
       <workItem from="1727563583493" duration="11368000" />
-      <workItem from="1727638308420" duration="6386000" />
+      <workItem from="1727638308420" duration="9834000" />
+      <workItem from="1727803937360" duration="4317000" />
     </task>
     <servers />
   </component>
