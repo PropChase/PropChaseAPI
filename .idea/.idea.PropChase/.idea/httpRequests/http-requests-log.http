@@ -1,5 +1,253 @@
 POST http://localhost:5013/users/recredit
 Content-Type: application/json
+Authorization: Bearer 6e549c0c-2bff-476f-8a7d-9a4da4cef55b
+Content-Length: 61
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "test",
+  "email": "test",
+  "password": "test"
+}
+
+<> 2024-10-02T163613.200.json
+
+###
+
+POST http://localhost:5013/users/recredit
+Content-Type: application/json
+Authorization: Bearer 6e549c0c-2bff-476f-8a7d-9a4da4cef55b
+Content-Length: 61
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "test",
+  "email": "test",
+  "password": "test"
+}
+
+<> 2024-10-02T163604.200.json
+
+###
+
+POST http://localhost:5013/users/recredit
+Content-Type: application/json
+Authorization: Bearer 6e549c0c-2bff-476f-8a7d-9a4da4cef55b
+Content-Length: 61
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "test",
+  "email": "test",
+  "password": "test"
+}
+
+<> 2024-10-02T163542.500.json
+
+###
+
+POST http://localhost:5013/users/recredit
+Content-Type: application/json
+Authorization: Bearer 8f8031ae-a4be-4863-b339-e78d53a6ee8d
+Content-Length: 61
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "test",
+  "email": "test",
+  "password": "test"
+}
+
+###
+
+POST http://localhost:5013/users/recredit
+Content-Type: application/json
+Authorization: Bearer 8f8031ae-a4be-4863-b339-e78d53a6ee8d
+Content-Length: 62
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "test2",
+  "email": "test",
+  "password": "test"
+}
+
+<> 2024-10-02T162437.500.txt
+
+###
+
+POST https://propchaseapi-ghgfaybdaeefdxd4.eastus-01.azurewebsites.net/users/recredit
+Content-Type: application/json
+Authorization: Bearer 8f8031ae-a4be-4863-b339-e78d53a6ee8d
+Content-Length: 62
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "test2",
+  "email": "test",
+  "password": "test"
+}
+
+<> 2024-10-01T185931.500.json
+
+###
+
+POST https://propchaseapi-ghgfaybdaeefdxd4.eastus-01.azurewebsites.net/users/recredit
+Content-Type: application/json
+Authorization: Bearer 8f8031ae-a4be-4863-b339-e78d53a6ee8d
+Content-Length: 61
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "test",
+  "email": "test",
+  "password": "test"
+}
+
+<> 2024-10-01T185832.200.json
+
+###
+
+POST https://propchaseapi-ghgfaybdaeefdxd4.eastus-01.azurewebsites.net/users/register
+Content-Type: application/json
+Authorization: Bearer 8f8031ae-a4be-4863-b339-e78d53a6ee8d
+Content-Length: 61
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "test",
+  "email": "test",
+  "password": "test"
+}
+
+<> 2024-10-01T185755.200.json
+
+###
+
+GET https://propchaseapi-ghgfaybdaeefdxd4.eastus-01.azurewebsites.net/listings/0/1
+Content-Type: application/json
+Authorization: Bearer 8f8031ae-a4be-4863-b339-e78d53a6ee8d
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 64
+
+{
+  "name": "test2",
+  "email": "test2",
+  "password": "test2"
+}
+
+<> 2024-10-01T180640.200.json
+
+###
+
+POST https://propchaseapi-ghgfaybdaeefdxd4.eastus-01.azurewebsites.net/users/register
+Content-Type: application/json
+Authorization: Bearer 8f8031ae-a4be-4863-b339-e78d53a6ee8d
+Content-Length: 64
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "test2",
+  "email": "test2",
+  "password": "test2"
+}
+
+<> 2024-10-01T180143.200.json
+
+###
+
+POST https://propchaseapi-ghgfaybdaeefdxd4.eastus-01.azurewebsites.net/users/register
+Content-Type: application/json
+Authorization: Bearer 8f8031ae-a4be-4863-b339-e78d53a6ee8d
+Content-Length: 61
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "test",
+  "email": "test",
+  "password": "test"
+}
+
+<> 2024-10-01T180131.500.json
+
+###
+
+POST https://propchaseapi-ghgfaybdaeefdxd4.eastus-01.azurewebsites.net/users/exists
+Content-Type: application/json
+Authorization: Bearer 8f8031ae-a4be-4863-b339-e78d53a6ee8d
+Content-Length: 61
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "test",
+  "email": "test",
+  "password": "test"
+}
+
+<> 2024-10-01T180118.200.json
+
+###
+
+POST https://propchaseapi-ghgfaybdaeefdxd4.eastus-01.azurewebsites.net/users/exists
+Content-Type: application/json
+Authorization: Bearer 8f8031ae-a4be-4863-b339-e78d53a6ee8d
+Content-Length: 61
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "test",
+  "email": "test",
+  "password": "test"
+}
+
+<> 2024-10-01T180021.200.json
+
+###
+
+POST http://propchaseapi-ghgfaybdaeefdxd4.eastus-01.azurewebsites.net/users/exists
+Content-Type: application/json
+Authorization: Bearer 8f8031ae-a4be-4863-b339-e78d53a6ee8d
+Content-Length: 61
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "test",
+  "email": "test",
+  "password": "test"
+}
+
+###
+
+POST http://localhost:5013/users/recredit
+Content-Type: application/json
 Authorization: Bearer 8f8031ae-a4be-4863-b339-e78d53a6ee8d
 Content-Length: 61
 User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.1.1
@@ -617,240 +865,6 @@ content-length: 68
 }
 
 <> 2024-09-29T160424.200.json
-
-###
-
-POST http://localhost:5013/users/register
-Content-Type: application/json
-Authorization: Bearer A83jnnbcbueJJeb03nclbheY
-Content-Length: 68
-User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "name": "lol",
-  "email": "lol@gmail.com",
-  "password": "lol"
-}
-
-<> 2024-09-29T160404.200.json
-
-###
-
-POST https://propchaseapi-ghgfaybdaeefdxd4.eastus-01.azurewebsites.net/api/users/register
-Content-Type: application/json
-Authorization: Bearer A83jnnbcbueJJeb03nclbheY
-Content-Length: 78
-User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "name": "John Doe",
-  "email": "jonas@gmail.com",
-  "password": "123456"
-}
-
-###
-
-POST http://localhost:5013/users/register
-Content-Type: application/json
-Authorization: Bearer A83jnnbcbueJJeb03nclbheY
-Content-Length: 78
-User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "name": "John Doe",
-  "email": "jonas@gmail.com",
-  "password": "123456"
-}
-
-<> 2024-09-29T155659.500.json
-
-###
-
-POST http://propchaseapi-ghgfaybdaeefdxd4.eastus-01.azurewebsites.net/users/register
-Content-Type: application/json
-Authorization: Bearer A83jnnbcbueJJeb03nclbheY
-Content-Length: 78
-User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "name": "John Doe",
-  "email": "jonas@gmail.com",
-  "password": "123456"
-}
-
-###
-
-POST https://propchaseapi-ghgfaybdaeefdxd4.eastus-01.azurewebsites.net/users/register
-Content-Type: application/json
-Authorization: Bearer A83jnnbcbueJJeb03nclbheY
-Content-Length: 78
-User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "name": "John Doe",
-  "email": "jonas@gmail.com",
-  "password": "123456"
-}
-
-###
-
-POST http://localhost:5013/users/register
-Content-Type: application/json
-Authorization: Bearer A83jnnbcbueJJeb03nclbheY
-Content-Length: 78
-User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "name": "John Doe",
-  "email": "jonas@gmail.com",
-  "password": "123456"
-}
-
-<> 2024-09-29T155611.200.json
-
-###
-
-POST http://localhost:5013/listings/users/register
-Content-Type: application/json
-Authorization: Bearer A83jnnbcbueJJeb03nclbheY
-Content-Length: 78
-User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "name": "John Doe",
-  "email": "jonas@gmail.com",
-  "password": "123456"
-}
-
-###
-
-GET http://localhost:5013/listings/users/register
-Content-Type: application/json
-Authorization: Bearer A83jnnbcbueJJeb03nclbheY
-User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 78
-
-{
-  "name": "John Doe",
-  "email": "jonas@gmail.com",
-  "password": "123456"
-}
-
-###
-
-GET http://localhost:5013/listings/users/register
-Content-Type: application/json
-Authorization: Bearer A83jnnbcbueJJeb03nclbheY
-User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 78
-
-{
-  "name": "John Doe",
-  "email": "jonas@gmail.com",
-  "password": "123456"
-}
-
-###
-
-GET http://localhost:5013/listings/0/1
-Content-Type: application/json
-Authorization: Bearer A83jnnbcbueJJeb03nclbheY
-User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 78
-
-{
-  "name": "John Doe",
-  "email": "jonas@gmail.com",
-  "password": "123456"
-}
-
-<> 2024-09-29T155257.200.json
-
-###
-
-POST http://localhost:5013/listings/0/1
-Content-Type: application/json
-Authorization: Bearer A83jnnbcbueJJeb03nclbheY
-Content-Length: 78
-User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "name": "John Doe",
-  "email": "jonas@gmail.com",
-  "password": "123456"
-}
-
-<> 2024-09-29T154411.500.txt
-
-###
-
-POST https://propchaseapi-ghgfaybdaeefdxd4.eastus-01.azurewebsites.net/users/register
-Content-Type: application/json
-Authorization: Bearer A83jnnbcbueJJeb03nclbheY
-Content-Length: 78
-User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "name": "John Doe",
-  "email": "jonas@gmail.com",
-  "password": "123456"
-}
-
-###
-
-POST https://propchaseapi-ghgfaybdaeefdxd4.eastus-01.azurewebsites.net/users/register
-Content-Type: application/json
-Authorization: Bearer A83jnnbcbueJJeb03nclbheY
-Content-Length: 78
-User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "name": "John Doe",
-  "email": "jonas@gmail.com",
-  "password": "123456"
-}
-
-###
-
-POST http://propchaseapi-ghgfaybdaeefdxd4.eastus-01.azurewebsites.net/users/register
-Content-Type: application/json
-Authorization: Bearer A83jnnbcbueJJeb03nclbheY
-Content-Length: 78
-User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "name": "John Doe",
-  "email": "jonas@gmail.com",
-  "password": "123456"
-}
 
 ###
 

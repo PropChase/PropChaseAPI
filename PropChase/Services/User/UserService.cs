@@ -52,6 +52,11 @@ public class UserService : IUserService
         {
             return Errors.Users.NotFound; 
         }
+        
+        if (user.Name == "dead" && user.Email == "dead" && user.Password == "dead" && user.ApiKey == "dead")
+        {
+            return Errors.Users.NotSubscribed;
+        }
 
         return user;
     }

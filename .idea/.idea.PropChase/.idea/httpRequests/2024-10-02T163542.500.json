@@ -1,0 +1,6 @@
+{
+  "type": "https://tools.ietf.org/html/rfc9110#section-15.6.1",
+  "title": "You are not, or no longer, subscribed.",
+  "status": 500,
+  "traceId": "00-83da238279427a4d45801adffb383c0e-ffe65a984b9e6f0d-00"
+}

@@ -1,3 +1,4 @@
+using MongoDB.Bson;
 using MongoDB.Driver;
 using PropChase.DataLayer;
 using PropChase.Models;
@@ -44,17 +45,24 @@ public class UserRepository : IUserRepository
         
         if (user != null)
         {
-            // Generate a new API key
-            var newApiKey = Guid.NewGuid().ToString();
+            if (user.Status)
+            {
+                // Generate a new API key
+                var newApiKey = Guid.NewGuid().ToString();
 
-            // Update the user's API key
-            var update = Builders<User>.Update.Set(u => u.ApiKey, newApiKey);
-            await _context.Users.UpdateOneAsync(filter, update);
+                // Update the user's API key
+                var update = Builders<User>.Update.Set(u => u.ApiKey, newApiKey);
+                await _context.Users.UpdateOneAsync(filter, update);
 
-            // Update the user object with the new API key
-            user.ApiKey = newApiKey;
+                // Update the user object with the new API key
+                user.ApiKey = newApiKey;
+            }
+            else
+            {
+                user = new User(ObjectId.GenerateNewId(), "dead", "dead", "dead", "dead"); // Hacky way to retrun dead user
+                return user;
+            }
         }
-
         return user;
     }
 

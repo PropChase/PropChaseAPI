@@ -24,6 +24,11 @@ public static class Errors
             description: "A user with this email already exists."
         );
         
+        public static Error NotSubscribed => Error.Conflict(
+            code: "User.NotSubscribed",
+            description: "You are not, or no longer, subscribed."
+        );
+        
         public static Error NotFound => Error.NotFound("User.NotFound", "User not found with the provided credentials.");
 
     }

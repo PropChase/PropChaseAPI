@@ -35,6 +35,6 @@ Accept: */*
 Host: localhost:5013
 User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.1.1
 Accept-Encoding: br, deflate, gzip, x-gzip
-Authorization: Bearer A83jnnbcbueJJeb03nclbheY
+Authorization: Bearer 8f8031ae-a4be-4863-b339-e78d53a6ee8d
 Content-Type: application/json
-Content-Length: 78
+Content-Length: 62
