@@ -10,6 +10,14 @@
   <component name="ChangeListManager">
     <list default="true" id="3fea852c-3007-46c2-810e-5673bc2bbd72" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PropChase/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PropChase/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PropChase/Controllers/UsersController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PropChase/Controllers/UsersController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PropChase/obj/Debug/net8.0/PropChase.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PropChase/obj/Debug/net8.0/PropChase.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PropChase/obj/Debug/net8.0/PropChase.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PropChase/obj/Debug/net8.0/PropChase.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PropChase/obj/PropChase.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/PropChase/obj/PropChase.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PropChase/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/PropChase/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PropChase/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PropChase/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PropChase/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/PropChase/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PropChase/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/PropChase/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,6 +131,7 @@
       <workItem from="1727823052731" duration="904000" />
       <workItem from="1727825088387" duration="923000" />
       <workItem from="1727899722201" duration="3061000" />
+      <workItem from="1733170635256" duration="1200000" />
     </task>
     <servers />
   </component>
@@ -132,5 +141,24 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/PropChase/Controllers/UsersController.cs</url>
+          <line>35</line>
+          <properties documentPath="$PROJECT_DIR$/PropChase/Controllers/UsersController.cs" containingFunctionPresentation="Lambda expression inside Method 'CheckUser'">
+            <startOffsets>
+              <option value="1110" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1152" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
